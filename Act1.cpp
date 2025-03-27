@@ -36,4 +36,5 @@ int main() {
     el resto, Ej: 2+4+8 = 14 | 14 - 2 - 8 = 4.
     En sintesis descompone los valores para dejar de resultado el valor mediano*/
     return 0; // Finaliza la ejecución del programa
+    // AAAAAAa
 }
