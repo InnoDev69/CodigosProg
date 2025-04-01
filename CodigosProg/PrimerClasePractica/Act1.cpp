@@ -31,7 +31,7 @@ int main() {
         min = min; // Mantiene el valor actual de min
     }
     
-    cout << "Maximo " << max << "|Medio " << num1 + num2 + num3 - min - max << " Minimo " << min;
+    cout << "Maximo " << max << " Medio " << num1 + num2 + num3 - min - max << " Minimo " << min;
     /*La cuenta es simple, se suma todo y el total se resta por el maximo y minimo dejando
     el resto, Ej: 2+4+8 = 14 | 14 - 2 - 8 = 4.
     En sintesis descompone los valores para dejar de resultado el valor mediano*/
