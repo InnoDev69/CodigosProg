@@ -14,7 +14,7 @@ int main(){
                 primNum=num;
                 primNumEncontrado=true;
             }
-            if (!segunNumEncontrado and num != primNum){
+            if (!segunNumEncontrado && num != primNum){
                 segunNum=num;
                 segunNumEncontrado=true;
             }
