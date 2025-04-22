@@ -3,7 +3,6 @@ using namespace std;
 
 int main(){
     int num, divisor=2;
-    bool esPrimo;
     cout << "Ingrese un numero: ";
     cin >> num;
     while (num % divisor != 0){
