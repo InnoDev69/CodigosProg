@@ -8,12 +8,19 @@ int main(){
     int num[5];
     int suma = 0;
     float promedio;
-    int cont = 0;
     for (int i = 0; i < 5; i++){
         cout << "Ingrese el numero " << i + 1 << ": ";
         cin >> num[i];
-        suma += num[i];
+        promedio += num[i];
     }
+    promedio /= 5;
+    for (int j=0; j<5;j++){
+        if (num[j] > promedio){
+            suma++;
+        }
+    }
+    cout << "El promedio: " << promedio << endl; 
+    cout << "Los numeros mayores al promedio son: " << suma << endl;
 
     return 0;
 } 
